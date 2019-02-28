@@ -24,7 +24,7 @@ class ApplicationController < Sinatra::Base
 
   #READ
   get '/articles' do
-    @articles = Articles.all
+    @articles = Article.all
   end
 
   get '/articles/:id' do
@@ -39,6 +39,9 @@ class ApplicationController < Sinatra::Base
 
   post / patch '/articles/:id' do
   end
+
+  #DELETE 
+  
 
 
 end
