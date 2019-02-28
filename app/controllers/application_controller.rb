@@ -12,5 +12,5 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/articles/new'
-end
+  end
 end
