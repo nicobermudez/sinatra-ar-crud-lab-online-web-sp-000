@@ -40,8 +40,8 @@ class ApplicationController < Sinatra::Base
   post / patch '/articles/:id' do
   end
 
-  #DELETE 
-  
+  #DELETE
+
 
 
 end
