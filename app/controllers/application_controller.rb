@@ -13,7 +13,7 @@ class ApplicationController < Sinatra::Base
   end
 
 
-  #Create
+  #CREATE
   get '/articles/new' do
     erb :new
   end
@@ -22,7 +22,7 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
-  #Read
+  #READ
   get '/articles' do
     @articles = Articles.all
   end
@@ -32,11 +32,13 @@ class ApplicationController < Sinatra::Base
     erb :show
   end
 
-  #Update
+  #UPDATE
 
   get '/articles/:id/edit' do
     erb :edit
   end
+
+  post
 
 
 end
