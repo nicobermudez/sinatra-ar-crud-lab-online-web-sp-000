@@ -10,4 +10,7 @@ class ApplicationController < Sinatra::Base
 
   get '/' do
   end
+
+  get '/articles/new'
+end
 end
