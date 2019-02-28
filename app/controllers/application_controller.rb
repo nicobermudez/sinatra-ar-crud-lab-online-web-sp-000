@@ -24,5 +24,9 @@ class ApplicationController < Sinatra::Base
     @articles = Articles.all
   end
 
+  get '/articles/:id' do
+  end
+  end
+
 
 end
