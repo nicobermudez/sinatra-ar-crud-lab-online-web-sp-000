@@ -33,12 +33,12 @@ class ApplicationController < Sinatra::Base
   end
 
   #UPDATE
-
   get '/articles/:id/edit' do
     erb :edit
   end
 
-  post
+  post / patch '/articles/:id' do
+  end
 
 
 end
